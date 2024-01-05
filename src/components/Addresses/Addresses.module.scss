@@ -1,0 +1,102 @@
+
+.addresses {
+	margin-top: 21px;
+}
+
+.cardGrid {
+	display: flex;
+	gap: 10px;
+}
+
+.card {
+  width: 408px;
+  min-height: 179px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.cardTopleft {
+  display: flex;
+}
+
+.logoCover {
+  width: 42px;
+  height: 42px;
+}
+
+.desc {
+  margin-left: 10px;
+}
+
+.title {
+  font-family: $gilroy;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.link {
+  color: #0062d5;
+  font-size: 12px;
+  font-family: $gilroy;
+  font-weight: 400;
+}
+
+.cardTopRight {
+}
+
+.divide {
+  width: 100%;
+  height: 1px;
+  background-color: #e3e3e3;
+}
+
+.middle {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+
+.location {
+  display: flex;
+  align-items: flex-start;
+}
+
+.locationText {
+  margin-right: 5px;
+  font-family: $gilroy;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  width: 50%;
+  margin: 0;
+}
+
+.bottom {
+  display: flex;
+	justify-content: space-between;
+}
+
+.bottomItem {
+  display: flex;
+	align-items: center;
+  img {
+    margin-right: 1px;
+  }
+  p {
+    font-family: $gilroy;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+		margin: 0;
+  }
+}

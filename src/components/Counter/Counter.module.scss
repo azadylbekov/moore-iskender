@@ -1,0 +1,35 @@
+
+.counter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.counterBtn {
+	width: 33px;
+	height: 33px;
+	background: #F5F5F5;
+	border-radius: 100%;
+	position: relative;
+	border: none;
+	transition: 0.3s;
+	svg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&:hover {
+		background-color: $secondary-blue;
+		cursor: pointer;
+		svg path {
+			fill: #fff;
+		}
+	}
+}
+
+.count {
+	font-family: $gilroy;
+	font-weight: 500;
+	font-size: 15px;
+}

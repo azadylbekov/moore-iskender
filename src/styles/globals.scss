@@ -1,0 +1,61 @@
+
+
+body {
+	background: #F8FAFF;
+}
+
+// .layout {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: space-between;
+// 	min-height: 100vh;
+// }
+
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+
+.circle {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+}
+
+.section-title {
+	font-family: $gilroy;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 18px;
+}
+
+.sidelink {
+	color: #3186C3;
+	font-size: 16px;
+	font-family: $gilroy;
+	font-weight: 600;
+	line-height: 19px;
+	text-decoration: none;
+}
+
+.title-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.slick-arrow {
+	&:before {
+		content: none
+	}
+}
+
+.slick-prev {
+	left: -50px;
+}
+
+.slick-next {
+	right: -50px;
+}
