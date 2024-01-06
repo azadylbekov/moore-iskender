@@ -59,3 +59,32 @@ body {
 .slick-next {
 	right: -50px;
 }
+
+.slick-dots {
+	li {
+		width: 10px;
+		button {
+			&:before {
+				content: '';
+				height: 3px;
+				width: 3px;
+				border-radius: 100%;
+				background-color: #0063A9;
+				transition: 0.3s;
+				opacity: 100;
+			}
+		}
+	}
+	li.slick-active {
+		width: 33px;
+		button {
+			&:before {
+				content: '';
+				width: 33px;
+				background-color: #0063A9;
+				height: 3px;
+				border-radius: 3px;		
+			}
+		}
+	}
+}
